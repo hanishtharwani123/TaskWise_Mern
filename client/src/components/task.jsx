@@ -5,13 +5,14 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import baseUrl from "../baseUrl";
 
 const Task = () => {
   const [todo, setTodo] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/get")
+      .get(`${baseUrl}/get`)
       .then((res) => {
         setTodo(res.data);
         console.log(res.data);
@@ -23,7 +24,7 @@ const Task = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete("http://localhost:5000/deleteUser/" + id)
+      .delete(`${baseUrl}/deleteUser/` + id)
       .then((res) => {
         console.log(res.data);
         window.location.reload();

@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
+import baseUrl from "../baseUrl";
 
 const updateTask = () => {
   const { id } = useParams();
@@ -14,7 +15,7 @@ const updateTask = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/take/" + id)
+      .get(`${baseUrl}/take/` + id)
       .then((res) => {
         setTask(res.data.task);
       })
@@ -26,7 +27,7 @@ const updateTask = () => {
   const Submit = (e) => {
     e.preventDefault();
     axios
-      .put("http://localhost:5000/updat/" + id, { task })
+      .put(`${baseUrl}/updat/` + id, { task })
       .then((res) => {
         console.log(res.data);
         navigate("/");

@@ -4,6 +4,7 @@ import Footer from "./footer";
 import "../styles/addTask.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import baseUrl from "../baseUrl";
 
 const addTask = () => {
   const [task, setTask] = useState("");
@@ -12,7 +13,7 @@ const addTask = () => {
   const handle = async (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/post", { task })
+      .post(`${baseUrl}/post`, { task })
       .then((res) => {
         console.log(res.data);
         navigate("/");
