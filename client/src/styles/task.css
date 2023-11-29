@@ -1,0 +1,117 @@
+.conatiner {
+    width: 100%;
+    display: grid;
+}
+
+.contain {
+    margin-top: 80px;
+    margin-bottom: 200px;
+
+}
+
+.about {
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.tagline {
+    font-size: 48px;
+    font-weight: 700;
+    color: #03024a;
+    text-align: center;
+    width: 970px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.add_task_btn {
+    width: 280px;
+    text-align: center;
+    color: #00ffbf;
+    background-color: #03024a;
+    border-radius: 50px;
+    padding: 16px 24px;
+    cursor: pointer;
+    border: 0;
+    font-size: 34px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.show_task {
+    margin-top: 130px;
+    display: grid;
+    justify-content: center;
+    width: 1000px;
+    background: #03024a;
+    border-radius: 6px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.your_task {
+    font-size: 40px;
+    font-weight: 700;
+    color: #00ffbf;
+    text-align: center;
+}
+
+.tasking {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 20px 16px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+}
+
+.task_name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00ffbf;
+    margin-left: 20px;
+    width: 580px;
+
+}
+
+.edit_btn {
+    margin-left: 60px;
+}
+
+.task_btn_edit {
+    width: 100px;
+    text-align: center;
+    background: rgb(61, 174, 0);
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 8px 18px;
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.task_btn_delete {
+    width: 100px;
+    text-align: center;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 12px;
+}
