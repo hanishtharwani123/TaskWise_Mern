@@ -1,3 +1,3 @@
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://task-wise-mern.vercel.app/";
 
 export default baseUrl;
