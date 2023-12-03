@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 130px;
-    background-color: #03024a;
+    background-color: #03024ae0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,4 +18,86 @@
     font-size: 20px;
     font-weight: 500;
     color: #00ffbf;
+}
+
+@media screen and (max-width:1060px) {
+    .taglines {
+        font-size: 14px;
+        font-weight: 500;
+        color: #00ffbf;
+    }
+}
+
+@media screen and (max-width:759px) {
+    .taglines {
+        font-size: 14px;
+        font-weight: 500;
+        color: #00ffbf;
+        width: 248px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 14px;
+    }
+
+    .logo_name {
+        font-size: 29px;
+        font-weight: 600;
+        color: #00ffbf;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .taglines {
+        font-size: 11px;
+        font-weight: 500;
+        color: #00ffbf;
+        width: 200px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 14px;
+    }
+
+    .logo_name {
+        font-size: 22px;
+        font-weight: 600;
+        color: #00ffbf;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .taglines {
+        font-size: 10px;
+        font-weight: 500;
+        color: #00ffbf;
+        width: 131px;
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 122px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 14px;
+    }
+
+    .logo_name {
+        font-size: 22px;
+        font-weight: 600;
+        color: #00ffbf;
+    }
 }

@@ -4,7 +4,7 @@
 }
 
 .contain {
-    margin-top: 80px;
+    margin-top: 170px;
     margin-bottom: 200px;
 
 }
@@ -82,7 +82,7 @@
     color: #00ffbf;
     margin-left: 20px;
     width: 580px;
-
+    word-wrap: break-word;
 }
 
 .edit_btn {
@@ -114,4 +114,361 @@
     font-size: 17px;
     font-weight: 500;
     margin-left: 12px;
+}
+
+@media screen and (max-width:1060px) {
+    .tagline {
+        font-size: 35px;
+        font-weight: 700;
+        color: #03024a;
+        text-align: center;
+        width: 687px;
+    }
+
+    .add_task_btn {
+        width: 240px;
+        text-align: center;
+        color: #00ffbf;
+        background-color: #03024a;
+        border-radius: 50px;
+        padding: 13px 7px;
+        cursor: pointer;
+        border: 0;
+        font-size: 26px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .your_task {
+        font-size: 35px;
+        font-weight: 700;
+        color: #00ffbf;
+        text-align: center;
+    }
+
+    .show_task {
+        margin-top: 130px;
+        display: grid;
+        justify-content: center;
+        width: 729px;
+        background: #03024a;
+        border-radius: 6px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .task_name {
+        font-size: 20px;
+        font-weight: 500;
+        color: #00ffbf;
+        margin-left: 20px;
+        width: 343px;
+        word-wrap: break-word;
+    }
+
+    .task_btn_delete {
+        width: 100px;
+        text-align: center;
+        background-color: #ff0000;
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 8px 16px;
+        cursor: pointer;
+        border: 0;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width:759px) {
+    .tagline {
+        font-size: 31px;
+        font-weight: 700;
+        color: #03024a;
+        text-align: center;
+        width: 401px;
+    }
+
+    .add_task_btn {
+        width: 211px;
+        text-align: center;
+        color: #00ffbf;
+        background-color: #03024a;
+        border-radius: 50px;
+        padding: 11px 7px;
+        cursor: pointer;
+        border: 0;
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .your_task {
+        font-size: 35px;
+        font-weight: 700;
+        color: #00ffbf;
+        text-align: center;
+    }
+
+    .show_task {
+        margin-top: 130px;
+        display: grid;
+        justify-content: center;
+        width: 438px;
+        background: #03024a;
+        border-radius: 6px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .task {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        padding: 24px 0px;
+        border: 2px solid #fff;
+        border-radius: 17px;
+    }
+
+    .task_name {
+        font-size: 12px;
+        font-weight: 500;
+        color: #00ffbf;
+        margin-left: 20px;
+        width: 158px;
+        word-wrap: break-word;
+    }
+
+    .task_btn_delete {
+        width: 47px;
+        text-align: center;
+        background: #ff0000;
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .task_btn_edit {
+        width: 47px;
+        text-align: center;
+        background: rgb(61, 174, 0);
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .edit_btn {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .tagline {
+        font-size: 23px;
+        font-weight: 700;
+        color: #03024a;
+        text-align: center;
+        width: 308px;
+    }
+
+    .add_task_btn {
+        width: 179px;
+        text-align: center;
+        color: #00ffbf;
+        background-color: #03024a;
+        border-radius: 50px;
+        padding: 11px 7px;
+        cursor: pointer;
+        border: 0;
+        font-size: 22px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .your_task {
+        font-size: 23px;
+        font-weight: 700;
+        color: #00ffbf;
+        text-align: center;
+    }
+
+    .show_task {
+        margin-top: 130px;
+        display: grid;
+        justify-content: center;
+        width: 319px;
+        background: #03024a;
+        border-radius: 6px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .task {
+        display: flex;
+        margin-top: 40px;
+        padding: 24px 5px;
+        border: 2px solid #fff;
+        border-radius: 17px;
+    }
+
+    .task_name {
+        font-size: 12px;
+        font-weight: 500;
+        color: #00ffbf;
+        margin-left: 5px;
+        width: 153px;
+        word-wrap: break-word;
+    }
+
+    .task_btn_delete {
+        width: 37px;
+        text-align: center;
+        background: #ff0000;
+        color: #ffffff;
+        border-radius: 67px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .task_btn_edit {
+        width: 37px;
+        text-align: center;
+        background: rgb(61, 174, 0);
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .edit_btn {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .tagline {
+        font-size: 19px;
+        font-weight: 700;
+        color: #03024a;
+        text-align: center;
+        width: 232px;
+    }
+
+    .add_task_btn {
+        width: 157px;
+        text-align: center;
+        color: #00ffbf;
+        background-color: #03024a;
+        border-radius: 50px;
+        padding: 11px 7px;
+        cursor: pointer;
+        border: 0;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .your_task {
+        font-size: 23px;
+        font-weight: 700;
+        color: #00ffbf;
+        text-align: center;
+    }
+
+    .show_task {
+        margin-top: 130px;
+        display: grid;
+        justify-content: center;
+        width: 280px;
+        background: #03024a;
+        border-radius: 6px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .task {
+        display: flex;
+        margin-top: 40px;
+        padding: 24px 5px;
+        border: 2px solid #fff;
+        border-radius: 17px;
+    }
+
+    .task_name {
+        font-size: 11px;
+        font-weight: 500;
+        color: #00ffbf;
+        margin-left: 5px;
+        width: 134px;
+        word-wrap: break-word;
+    }
+
+    .task_btn_delete {
+        width: 37px;
+        text-align: center;
+        background: #ff0000;
+        color: #ffffff;
+        border-radius: 67px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .task_btn_edit {
+        width: 37px;
+        text-align: center;
+        background: rgb(61, 174, 0);
+        color: #ffffff;
+        border-radius: 50px;
+        padding: 8px 0px;
+        cursor: pointer;
+        border: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .edit_btn {
+        margin-left: 5px;
+    }
 }
