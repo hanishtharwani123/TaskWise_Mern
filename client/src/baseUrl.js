@@ -1,3 +1,3 @@
-const baseUrl = "https://taskwise-mern.onrender.com/";
+const baseUrl = "http://localhost:5000";
 
 export default baseUrl;
