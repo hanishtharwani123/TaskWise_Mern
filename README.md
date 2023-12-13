@@ -1,4 +1,4 @@
-# TaskWis
+# TaskWise
 
 TaskWise is a task management web application developed using the MERN stack, allowing users to create, read, update, and delete tasks seamlessly.
 
