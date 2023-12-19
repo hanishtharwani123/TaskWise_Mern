@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 const app = express();
 const taskModel = require("./models/schema");
 require("./db/connect");
@@ -72,6 +73,14 @@ app.post("/post", async (req, res) => {
     res.status(500).send(err);
   }
 });
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "..", "client", "build")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
+  });
+}
 
 app.listen(port, () => {
   console.log(`server is running on ${port}`);
